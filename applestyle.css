@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Roboto:wght@700&display=swap');
+
+.header{
+    position: relative;
+    border:1px solid;
+    background-color: rgb(44, 43, 43);
+    width: 1540px;
+    bottom: 10px;
+    right: 10px;
+    
+}
+.logo{
+    height: 15px;
+    width: 15px;
+    left: 180px;
+   position: relative;
+}
+ul{
+    list-style:none;
+    display: flex;
+}
+li a{
+   text-decoration: none;
+   color: aliceblue; 
+   padding-left: 50px;
+   left: 180px;
+   position: relative;
+   font-size: 12px;
+}
+.border{
+    
+    /*padding: 20px;*/
+    
+    bottom: 10px;
+    /*width: 2000px;*/
+    right: 10px;
+    position: relative;
+    
+}
+.statement{
+    left: 340px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    position: relative;
+}
+.iphoneadd{
+    background: black;
+    width: 1540px;
+    height:520px;
+    position: relative;
+    bottom: 60px;
+    right:10px;
+}
+.iphone14{
+    height: 350px;
+    width:600px;
+    position: relative;
+    top: 40px;
+    left: 425px;
+}
+.p1{
+    font-family: 'Nunito Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 45px;
+color: white;
+padding: 10px;
+position: relative;
+top: 40px;
+left: 600px;
+
+}
