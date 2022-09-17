@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Roboto:wght@700&display=swap');
-
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 .header{
     position: relative;
-    border:1px solid;
+    border:0.25px solid;
     background-color: rgb(44, 43, 43);
     width: 1540px;
     bottom: 10px;
-    right: 10px;
-    
+    right:30px;
+    height: 40px;
 }
 .logo{
     height: 15px;
@@ -15,17 +18,25 @@
     left: 180px;
    position: relative;
 }
+.logo:hover{
+    color:white;
+    cursor: pointer;
+}
 ul{
     list-style:none;
     display: flex;
 }
 li a{
    text-decoration: none;
-   color: aliceblue; 
+   color: rgb(188, 192, 196); 
    padding-left: 50px;
    left: 180px;
    position: relative;
-   font-size: 12px;
+   font-size: 15px;
+}
+li a:hover{
+    color:white;
+    cursor: pointer;
 }
 .border{
     
@@ -39,7 +50,7 @@ li a{
 }
 .statement{
     left: 340px;
-    padding: 20px;
+    padding: 10px;
     font-size: 16px;
     font-family: 'Nunito Sans', sans-serif;
     color: black;
@@ -48,26 +59,58 @@ li a{
 .iphoneadd{
     background: black;
     width: 1540px;
-    height:520px;
+    height:585px;
     position: relative;
     bottom: 60px;
-    right:10px;
+    right:30px;
 }
 .iphone14{
-    height: 350px;
+    height: 380px;
     width:600px;
     position: relative;
-    top: 40px;
+    bottom: 35px;
     left: 425px;
 }
 .p1{
-    font-family: 'Nunito Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
+    
+    font-family: 'Roboto', sans-serif;
 font-size: 45px;
 color: white;
 padding: 10px;
 position: relative;
 top: 40px;
-left: 600px;
+left: 580px;
 
+}
+.p2{
+    font-family: 'Open Sans', sans-serif;
+font-size: 25px;
+color: white;
+padding: 10px;
+position: relative;
+bottom: 30px;
+left: 650px;
+
+}
+.learn{
+    font-size: 20px;
+    color: rgb(5, 187, 248);
+    padding: 10px;
+position: relative;
+bottom: 55px;
+left: 630px;
+font-family: 'Barlow', sans-serif;
+}
+a{
+    text-decoration: none;
+    
+}
+.learn:hover{
+    text-decoration: underline;
+}
+#learn1{
+    color: rgb(9, 5, 126);
+}
+.learn1:hover{
+    text-decoration: underline;
 }
